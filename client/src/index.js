@@ -1,3 +1,4 @@
+import materializeCSS from 'materialize-css/dist/css/materialize.min.css'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -10,4 +11,5 @@ const store = createStore(reducers, {}, applyMiddleware());
 
 ReactDOM.render(
   <Provider store={store}><App /></Provider>, 
-  document.getElementById('root'));
+  document.getElementById('root')
+);
