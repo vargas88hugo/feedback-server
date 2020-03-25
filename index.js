@@ -10,6 +10,7 @@ const authRoutes = require('./routes/authRoutes');
 const billingRoutes = require('./routes/billingRoutes');
 const keys = require('./config/keys');
 require('./models/User');
+require('./models/Survey');
 require('./services/passport');
 
 mongoose.connect(keys.mongoURI, {useNewUrlParser: true, useUnifiedTopology: true});
