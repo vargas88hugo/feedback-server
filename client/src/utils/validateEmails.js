@@ -10,4 +10,6 @@ export default (emails) => {
   if (invalidEmails.length) {
     return `These emails are invalid: ${invalidEmails}`;
   }
+
+  return;
 };
