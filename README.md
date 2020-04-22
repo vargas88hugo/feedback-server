@@ -2,6 +2,8 @@
 
 An application written in NodeJS, ReactJS with redux pattern, Passport.js, Sendgrid and express. This project is based on a tutorial from Udemy and is highly recommended. This app sends surveys to multiple destinations and store the user answare in a MongoDB databse.
 
+![Screen](https://i.imgur.com/mKCy2wt.png)
+
 ### Prerequisites
 Basically you need to have NodeJs and React in your computer. Create a Sendgrid account.
 
